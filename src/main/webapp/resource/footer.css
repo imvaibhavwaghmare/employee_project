@@ -1,0 +1,162 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    /* Set a background color */
+}
+.footerlogo {
+    height: 65px;
+    width: 150px;
+}
+
+.socialmedia img {
+    height: 40px;
+    width: 40px;
+}
+
+.logoclass a {
+    margin-bottom: 50px;
+}
+
+/* footer */
+.textwidget.custom-html-widget {
+    width: 100%;
+    /* Set the width of the container */
+}
+
+.textwidget.custom-html-widget div {
+    display: block;
+    /* Display each <div> element as a block */
+    margin-bottom: 10px;
+    /* Add space between each <div> element */
+}
+
+/* Style for headings */
+.textwidget.custom-html-widget div[style*="font-size:20px"] {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+/* Style for location text */
+.textwidget.custom-html-widget div[style*="color:#c1c7cd"] {
+    color: #c1c7cd;
+}
+
+/* Style for phone numbers and helpdesk */
+.textwidget.custom-html-widget div[style*="color:#fccf33"] {
+    color: #fccf33;
+    padding-top: 10px;
+}
+
+.textwidget.custom-html-widget {
+    width: 100%;
+    /* Set the width of the container to 100% */
+    display: flex;
+    flex-direction: column;
+    /* Display the contents in a single column */
+    align-items: flex-start;
+    /* Align content to the left */
+}
+
+.textwidget.custom-html-widget>div {
+    margin-bottom: 10px;
+    /* Add space between each <div> element */
+}
+
+/* Style for headings */
+.textwidget.custom-html-widget div[style*="font-size:20px"] {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+/* Style for location text */
+.textwidget.custom-html-widget div[style*="color:#c1c7cd"] {
+    color: #c1c7cd;
+}
+
+/* Style for phone numbers and helpdesk */
+.textwidget.custom-html-widget div[style*="color:#fccf33"] {
+    color: #fccf33;
+    padding-top: 10px;
+}
+
+
+
+
+.rectangular-box {
+    width: 200px;
+    /* Set the width of the box */
+    height: 650px;
+    /* Set the height of the box */
+    border: 2px solid rgb(255, 255, 128);
+    /* Add a border */
+    background-color: #f2f2f2;
+    /* Set the background color */
+    padding: 20px;
+    /* Add some padding inside the box */
+}
+
+/* Style for the text inside the box */
+/* footer */
+
+.footer {
+    background-color: #55acee;
+    color: #fff;
+     padding: 20px 0; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 1;
+    padding: 0 20px;
+    background-color: #55acee;
+
+}
+.column img{
+    margin-left:30px;
+}
+.column a {
+    color: wheat;
+
+
+}
+
+/* Style for the text inside the columns */
+.column p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.address{
+    background-color: #508cc7;
+}
+
+.social-icons{
+	margin-left: 20px;
+}
+
+
+
+.footerEnd {
+     background-color: #e66c6c; 
+    color: white; 
+    text-align: center; 
+    padding: 120px 0; 
+    position: relative;
+    bottom: 60; 
+    width: 100%; 
+    height: 5px;
+}
+
+.footerEnd {
+	
+	text-decoration: blanchedalmond;
+	
+	
+}

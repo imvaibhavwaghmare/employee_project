@@ -1,0 +1,134 @@
+body {
+    place-items: center;
+    /* background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=nasa-Q1p7bh3SHj8-unsplash.jpg'); */
+    background: linear-gradient(to right, #fe3876, #83ed26, #014a98);
+
+    background-size: cover;
+
+}
+/* Your existing styles */
+
+/* Add a media query for screens with a maximum width of 600px */
+
+
+
+
+
+.heading h1 {
+    margin-left: 380px;
+    margin-bottom: -15px;
+}
+
+.heading {}
+
+.mainbox {
+    height: 260px;
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px;
+    margin-bottom: auto;
+
+     display: flex;
+        flex-direction: column;
+
+
+}
+
+.allcolumns {
+
+    background-color: #22321abe;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    /*  remember this thing */
+    justify-content: space-between;
+    border-radius: 10px;
+    height: 420px;
+
+}
+
+.Column {
+    flex: 1;
+    padding: 0 20px;
+
+
+}
+
+/* Style for the text inside the columns */
+.Column p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#username {
+    width: 250px;
+
+}
+
+
+.loginbutton {
+    height: 30px;
+    width: 60px;
+    margin-left: 197px;
+    margin-top: 30PX;
+    border-radius: 20px;
+    background-color: rgb(192, 192, 192);
+}
+
+.marq {
+    margin-bottom: 20px;
+    color: rgb(91, 33, 80);
+}
+
+#username {
+    border-radius: 20px;
+    height: 20px;
+}
+label{
+	color: mistyrose;
+}
+
+.gender{
+	color: #fe3876;
+}
+
+/*    for responsive  */
+
+@media only screen and (max-width: 600px) {
+    /* Styles for small screens */
+    body {
+        /* Adjust overall layout for small screens */
+    }
+    
+    /* Styles for input fields, select boxes, and buttons */
+input, select, button {
+    width: 100%; /* Make the elements take 100% width of their container */
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+}
+
+/* Styles for columns */
+.allcolumns {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 600px) {
+    .allcolumns {
+        flex-direction: column; /* Stack columns vertically on small screens */
+    }
+}
+
+/* Adjust font sizes */
+body {
+    font-size: 16px; /* Default font size */
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+}
+    
+}

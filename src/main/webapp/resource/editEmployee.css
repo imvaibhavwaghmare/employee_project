@@ -1,0 +1,88 @@
+body {
+    place-items: center;
+    /* background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=nasa-Q1p7bh3SHj8-unsplash.jpg'); */
+    background: linear-gradient(to right, #fe3876, #83ed26, #014a98);
+
+    background-size: cover;
+
+}
+
+.heading h1 {
+    margin-left: 380px;
+    margin-bottom: -15px;
+}
+
+.heading {}
+
+.mainbox {
+    height: 260px;
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px;
+    margin-bottom: auto;
+
+
+
+}
+
+.allcolumns {
+
+    background-color: #22321abe;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    /*  remember this thing */
+    justify-content: space-between;
+ /*   border-radius: 10px;  */
+    height: 420px;
+
+}
+
+.Column {
+    flex: 1;
+    padding: 0 20px;
+
+
+}
+
+/* Style for the text inside the columns */
+.Column p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#username {
+    width: 250px;
+
+}
+
+
+.loginbutton {
+    height: 30px;
+    width: 60px;
+    margin-left: 197px;
+    margin-top: 30PX;
+    border-radius: 20px;
+    background-color: rgb(192, 192, 192);
+}
+
+.marq {
+    margin-bottom: 20px;
+    color: rgb(91, 33, 80);
+}
+
+#username {
+/*    border-radius: 20px; */
+    height: 20px;
+}
+label{
+	color: mistyrose;
+}
+
+.gender{
+	color: #fe3876;
+}
+
+
+

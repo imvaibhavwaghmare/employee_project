@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    /* Set a background color */
+}
+
+
+
+
+
+.aaa {
+    margin-right: 50px;
+}
+
+ .middleimg {
+    max-width: 100%;
+  height: auto;
+    display: block;
+    margin: 0 auto; /* Center the image */
+}
+ /* Hide the image when the screen size is 600 pixels or less */
+    @media (max-width: 600px) {
+      .middleimg {
+        display: none;
+      }
+    }
+
+
+
+
+
+
+

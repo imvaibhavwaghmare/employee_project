@@ -1,0 +1,26 @@
+.tbl td {
+        width: 70px;
+        font-size: 13px;
+    
+    }
+   /* Style even rows (starting from the 1st row) with a white background */
+.tbl tbody tr:nth-child(even) {
+background-color: #646161;
+color: #ffffff; /* You can adjust the text color for better contrast */
+
+}
+
+/* Style odd rows with a black background */
+.tbl tbody tr:nth-child(odd) {
+background-color: #7e7676;
+color: #ffffff; /* You can adjust the text color for better contrast */
+}
+.tbl tr{
+background-color: rgb(238 161 155);
+}
+.employee_id { 
+    width: 100px;
+ }
+.userntblame { 
+    width: 150px; 
+}
